@@ -12,7 +12,7 @@ Proyek ini dikembangkan untuk memenuhi tugas mata kuliah **Struktur Data**.
 ## 🧠 Konsep Struktur Data
 - **Double Linked List** → untuk data buku
 - **Single Linked List** → untuk stok buku
-- **Multi Linked List (Parent–Child)**
+- **Multi Linked List (Parent–Child)** → relasi antara buku dan stok
 
 ---
 
