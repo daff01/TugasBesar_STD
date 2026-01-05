@@ -1,38 +1,52 @@
-# 📚 Sistem Perpustakaan Digital  
-### Berbasis Multi Linked List (C++)
+# 📚 Sistem Manajemen Perpustakaan (Multi Linked List)
 
-## 📌 Deskripsi Proyek
-Proyek ini merupakan implementasi **Sistem Perpustakaan Digital** menggunakan **struktur data Multi Linked List (MLL)** dengan bahasa pemrograman **C++**.  
-Setiap buku direpresentasikan sebagai **node parent**, sedangkan stok buku (eksemplar) direpresentasikan sebagai **node child**.
+Program ini merupakan implementasi **Tugas Besar Mata Kuliah Struktur Data** yang membahas pengelolaan data perpustakaan menggunakan **Multi Linked List (Parent–Child)** dengan bahasa pemrograman **C++**.
 
-Proyek ini dikembangkan untuk memenuhi tugas mata kuliah **Struktur Data**.
+Setiap **buku** direpresentasikan sebagai **node parent**, sedangkan setiap **stok/eksemplar buku** direpresentasikan sebagai **node child**.
+
+---
+
+## 👥 Informasi Pembuat
+
+Tugas besar ini disusun oleh:
+
+- **Nama** : Dafa Izul Haq  
+  **NIM**  : 103012400316  
+
+- **Nama** : Hafattan Delvis  
+  **NIM**  : 103012400057  
+
+---
+
+## 🎯 Tujuan Program
+- Menerapkan konsep **Linked List**, **Double Linked List**, dan **Multi Linked List**
+- Mengelola data buku dan stok secara dinamis
+- Menyediakan fitur pencarian dan analisis stok
 
 ---
 
 ## 🧠 Konsep Struktur Data
-- **Double Linked List** → untuk data buku
-- **Single Linked List** → untuk stok buku
-- **Multi Linked List (Parent–Child)** → relasi antara buku dan stok
+- **Double Linked List** → Data buku
+- **Single Linked List** → Stok buku
+- **Multi Linked List (Parent–Child)** → Relasi buku dan stok
 
 ---
 
-## ⚙️ Fitur Sistem
-- Tambah buku beserta stok
+## ⚙️ Fitur Program
+- Tambah data buku
 - Tambah stok buku
 - Hapus buku
 - Hapus stok berdasarkan jumlah
-- Cari buku berdasarkan:
+- Pencarian buku berdasarkan:
   - ID Buku
   - Judul
   - Pengarang
   - Tahun Terbit
-  - Kategori / Genre
-- Menampilkan seluruh buku
-- Menampilkan buku dengan:
-  - Stok terbanyak (urut menurun)
-  - Stok tersedikit (urut menaik)
-- Menghitung total stok setiap buku
+  - Kategori/Genre
+- Menampilkan seluruh data buku
+- Menampilkan buku dengan stok:
+  - Terbanyak (urut menurun)
+  - Tersedikit (urut menaik)
+- Menampilkan total stok seluruh buku
 
 ---
-
-## 📂 Struktur File
